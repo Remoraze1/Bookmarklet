@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Bookmarklets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Drag to Bookmark Bar</h1>
+    <p>Drag these bookmarklets into your bookmark bar:</p>
+    <div class="bookmarklets">
+        <a href="javascript:(function(){alert('Hello!');})();" draggable="true" class="bookmarklet" id="greet">Greet</a>
+        <a href="javascript:(function(){document.body.style.backgroundColor='blue';})();" draggable="true" class="bookmarklet" id="blue-bg">Blue Background</a>
+        <a href="javascript:(function(){alert('Have a great day!');})();" draggable="true" class="bookmarklet" id="great-day">Great Day</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
